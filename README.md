@@ -37,11 +37,11 @@ You can set the number of records needed at cell 7.
 Use cell 13 as your playground to experiment different fake providers.
 
 # Download the Test Data
-Generated Test Data can be downloaded as csv or excel file.
+Generated Test Data can be downloaded as csv or excel file, just click on the download button below the table at the bottom of a cell.
 - <img width="700" height="900" alt="image" src="https://github.com/user-attachments/assets/8ea3dfa0-1887-42c1-9d41-1c0a23198ec5" />
 
 # Save Test Data in Unity Catalog
-Since Test Data is already stored in memory as Spark DataFrame ```spark.createDataFrame(data=data,schema=schema)```, it can be stored in your own cloud storage and Unity Catalog easily
+Since Test Data is already stored in memory as Spark DataFrame ```spark.createDataFrame(data=data,schema=schema)```, _sqldf is created automatically, it can be used to stored the data in your own cloud storage and metadata in Unity Catalog easily.
 Example:
 ```
 %sql
