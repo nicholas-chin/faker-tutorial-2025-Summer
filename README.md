@@ -6,7 +6,7 @@ Signup for Databricks Free Edition, visit https://login.databricks.com/, click o
 
 # Instruction
 1. Download "Generate Test Data Tutorial 2025 Summer.ipynb" to your computer.
-   - https://github.com/nicholas-chin/faker-tutorial-2025summer/blob/main/test%20data%20tutorial.ipynb
+   - [https://github.com/nicholas-chin/faker-tutorial-2025summer/blob/main/test%20data%20tutorial.ipynb](https://github.com/nicholas-chin/faker-tutorial-2025-Summer/blob/main/Generate%20Test%20Data%20Tutorial%202025%20Summer.ipynb)
 1. Visit https://login.databricks.com/, Login or Signup Databricks Free Edition.
    - <img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/09c874dd-6f8e-4b37-b880-ea81ddb819e2" />
 4. When you are at Databricks Free Edition _Welcome to Databricks_ page, go to the left menu, click on "Workspace".
