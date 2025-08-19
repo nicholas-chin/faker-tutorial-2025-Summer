@@ -41,13 +41,19 @@ Generated Test Data can be downloaded as csv or excel file, just click on the do
 - <img width="700" height="900" alt="image" src="https://github.com/user-attachments/assets/8ea3dfa0-1887-42c1-9d41-1c0a23198ec5" />
 
 # Save Test Data in Unity Catalog
-Since Test Data is already stored in memory as Spark DataFrame ```spark.createDataFrame(data=data,schema=schema)```, _sqldf is created automatically, it can be used to stored the data in your own cloud storage and metadata in Unity Catalog easily.
-Example:
-```
-%sql
-create or replace table catalog1.schema1.test_data1
-as
-select * from _sqldf;
-```
+Since Test Data is already stored in memory as Spark DataFrame ```spark.createDataFrame(data=data,schema=schema)```, it can be used to stored the data in your own cloud storage and metadata in Unity Catalog easily.
+Two steps if using spark SQL:
+1. In python spark dataframe, create a temporary view that can be used in spark SQL.
+   ```df.createOrReplaceTempView("v_TestData")```
+1. Use spark SQL to create a Unity Catalog table.
+   ```
+   %sql
+   create or replace table catalog1.schema1.test_data1
+   as
+   select * from v_TestData;
+   ```
+
+# Closing
+Thanks for reading.
 
 
