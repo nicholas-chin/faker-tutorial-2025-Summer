@@ -28,7 +28,7 @@ Signup for Databricks Free Edition, visit https://login.databricks.com/, click o
 1. Click on "Run all cells" button to make sure all the python code is executed, so you can learn from the results.
    - <img width="700" height="1000" alt="image" src="https://github.com/user-attachments/assets/719b88de-41cb-40f9-ad0a-abb1e0b30ea6" />
 1. Review and run individual cell as needed.
-1. Feel free to modify the "Try it yourself" at cell 13, write it, run it, experiment and have fun!
+1. Feel free to modify the python code in cell 13 "Try it out", write it, run it, experiment and have fun!
 
 # Number of Records
 You can set the number of records needed at cell 7.
@@ -41,13 +41,13 @@ Generated Test Data can be downloaded as csv or excel file.
 - <img width="700" height="900" alt="image" src="https://github.com/user-attachments/assets/8ea3dfa0-1887-42c1-9d41-1c0a23198ec5" />
 
 # Save Test Data in Unity Catalog
-Since Test Data is already stored in memory as Spark DataFrame, it can be stored in your own cloud storage and Unity Catalog easily
+Since Test Data is already stored in memory as Spark DataFrame ```spark.createDataFrame(data=data,schema=schema)```, it can be stored in your own cloud storage and Unity Catalog easily
 Example:
 ```
 %sql
 create or replace table catalog1.schema1.test_data1
 as
-select * from test_data_dataframe;
+select * from _sqldf;
 ```
 
 
