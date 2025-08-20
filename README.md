@@ -5,7 +5,7 @@ This is a quick tutorial on generating test data using Faker python package, the
 Signup for Databricks Free Edition, visit https://login.databricks.com/, click on Sign up link at the bottom if you do not have a free account yet.   
 
 # Instruction
-1. Download "Generate Test Data Tutorial 2025 Summer.ipynb" to your computer.
+1. Download "Generate Test Data Tutorial 2025 Summer.py" to your computer.
    - https://github.com/nicholas-chin/faker-tutorial-2025-Summer/blob/main/Generate%20Test%20Data%20Tutorial%202025%20Summer.py
 1. Visit https://login.databricks.com/, Login or Signup Databricks Free Edition.
    - <img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/09c874dd-6f8e-4b37-b880-ea81ddb819e2" />
