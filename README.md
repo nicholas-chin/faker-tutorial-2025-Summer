@@ -18,7 +18,7 @@ Signup for Databricks Free Edition, visit https://login.databricks.com/, click o
 1. Click on "Import" from the "Three Dot" menu.
    - <img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/b41a2d4e-1848-46f6-9cb8-38d23619dea0" />
 1. Click on "browse" button to select the downloaded python notebook from step 1, it can be either py or ipynb file.
-   - <img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/7040ca6b-784a-41fc-81d8-2b5bbbfc2b6e" />
+   - <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/7040ca6b-784a-41fc-81d8-2b5bbbfc2b6e" />
 1. Open the downloaded "Generate Test Data Tutorial 2025 Summer.py" file from step 1.
    - <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/7cd88294-b1b0-4e95-9044-2f6e6ba34028" />
 1. Click on "Import" button to import the python notebook file downloaded from step 1.
