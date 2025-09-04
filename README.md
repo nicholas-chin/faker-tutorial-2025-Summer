@@ -30,17 +30,17 @@ Signup for Databricks Free Edition, visit https://login.databricks.com/, click o
 1. Review and run individual cell as needed.
 1. Feel free to modify the python code in cell 13 "Try it out", write it, run it, experiment and have fun!
 
-# Number of Records
+## Number of Records
 You can set the number of records needed at cell 7.
 
-# Playground
+## Playground
 Use cell 13 as your playground to experiment different fake providers.
 
-# Download the Test Data
+## Download the Test Data
 Generated Test Data can be downloaded as csv or excel file, just click on the download button below the table at the bottom of a cell.
 - <img width="700" height="900" alt="image" src="https://github.com/user-attachments/assets/8ea3dfa0-1887-42c1-9d41-1c0a23198ec5" />
 
-# Save Test Data in Unity Catalog
+## Save Test Data in Unity Catalog
 Since Test Data is already stored in memory as Spark DataFrame ```spark.createDataFrame(data=data,schema=schema)```, it can be used to stored the data in your own cloud storage and metadata in Unity Catalog easily.
 Two steps if using spark SQL:
 1. In python spark dataframe, create a temporary view that can be used in spark SQL.
@@ -52,6 +52,82 @@ Two steps if using spark SQL:
    as
    select * from v_TestData;
    ```
+
+# Bonus
+Faker is not the only easy python library to generate synthetic data, here are two more libraries that you can try.
+
+## dbldatagen
+It is very similar to Faker, the main difference is spark dataframe.
+- Github: https://github.com/databrickslabs/dbldatagen
+
+### dbldatagen installation
+`%pip install dbldatagen`
+
+### Generate synthetic user data in spark dataframe
+```
+import dbldatagen as dg
+df = dg.Datasets(spark, "basic/user").get(rows=1000_000).build()
+```
+
+### Generate synthetic data within range
+```
+import dbldatagen as dg
+from pyspark.sql.types import IntegerType, FloatType, StringType
+column_count = 10
+data_rows = 1000 * 1000
+df_spec = (dg.DataGenerator(spark, name="test_data_set1", rows=data_rows,
+                                                  partitions=4)
+           .withIdOutput()
+           .withColumn("r", FloatType(), 
+                            expr="floor(rand() * 350) * (86400 + 3600)",
+                            numColumns=column_count)
+           .withColumn("code1", IntegerType(), minValue=100, maxValue=200)
+           .withColumn("code2", IntegerType(), minValue=0, maxValue=10)
+           .withColumn("code3", StringType(), values=['a', 'b', 'c'])
+           .withColumn("code4", StringType(), values=['a', 'b', 'c'], 
+                          random=True)
+           .withColumn("code5", StringType(), values=['a', 'b', 'c'], 
+                          random=True, weights=[9, 1, 1])
+ 
+           )
+                            
+df = df_spec.build()
+```
+
+### Example notebook
+~ coming soon ~
+
+## SDV (Synthetic Data Vault)
+SDV learns patterns from real data and emulate them in synthetic data.
+- Github: https://github.com/sdv-dev/SDV
+
+### SDV Installation
+`%pip install sdv`
+
+### Real Data
+Download demo data as real data, please do not use non public data for hackathon.
+```
+from sdv.datasets.demo import download_demo
+
+real_data, metadata = download_demo(
+    modality='single_table',
+    dataset_name='fake_hotel_guests'
+)
+```
+
+### Create synthetic data from pattern
+Determine pattern from real data, and use it to generate synthetic data.
+```
+from sdv.single_table import GaussianCopulaSynthesizer
+
+synthesizer = GaussianCopulaSynthesizer(metadata)
+synthesizer.fit(data=real_data)
+
+synthetic_data = synthesizer.sample(num_rows=500)
+```
+
+### Example notebook
+~ coming soon ~
 
 # Closing
 Thanks for reading.
