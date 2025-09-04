@@ -22,7 +22,7 @@ Signup for Databricks Free Edition, visit https://login.databricks.com/, click o
 1. Open the downloaded "Generate Test Data Tutorial 2025 Summer.py" file from step 1.
    - <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/7cd88294-b1b0-4e95-9044-2f6e6ba34028" />
 1. Click on "Import" button to import the python notebook file downloaded from step 1.
-   - <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/88587a81-8d78-4d46-b801-b6f2a4b0e1b2" />
+   - <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/39cab9f1-dd1a-4dc0-8b94-b7caf9d11061" />
 1. Open the imported notebook: "Generate Test Data Tutorial 2025 Summer.py"
    - <img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/623354c5-858f-4bf1-8767-2ce378ba285a" />
 1. Click on "Run all cells" button to make sure all the python code is executed, so you can learn from the results.
