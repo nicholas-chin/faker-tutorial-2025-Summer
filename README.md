@@ -95,7 +95,7 @@ df = df_spec.build()
 ```
 
 ### Example notebook
-~ coming soon ~
+[Example notebook of dbldatagen](https://github.com/nicholas-chin/faker-tutorial-2025-Summer/blob/main/Databricks%20Lab%20Data%20Generator.ipynb)
 
 ## SDV (Synthetic Data Vault)
 SDV learns patterns from real data and emulate them in synthetic data.
@@ -127,7 +127,7 @@ synthetic_data = synthesizer.sample(num_rows=500)
 ```
 
 ### Example notebook
-~ coming soon ~
+[Example notebook of SDV](https://github.com/nicholas-chin/faker-tutorial-2025-Summer/blob/main/Synthetic%20Data%20Vault%20(SDV).html)
 
 # Closing
 Thanks for reading.
