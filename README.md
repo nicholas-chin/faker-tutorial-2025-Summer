@@ -57,7 +57,7 @@ Two steps if using spark SQL:
 Faker is not the only easy python library to generate synthetic data, here are two more libraries that you can try.
 
 ## dbldatagen
-It is very similar to Faker, the main difference is spark dataframe.
+It is very similar to Faker, the main difference is spark dataframe, therefore it is faster, and creating streaming data.
 - Github: https://github.com/databrickslabs/dbldatagen
 
 ### dbldatagen installation
