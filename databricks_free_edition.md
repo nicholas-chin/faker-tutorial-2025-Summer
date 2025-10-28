@@ -1,6 +1,7 @@
 ## Sign up for Databricks Free Edition Account
-1. As team leader, create a Databricks Free Edition account for team to work together.
+1. As team captain, create a Databricks Free Edition account for team to work together.
    - Databricks Account has Workspace(s).
+   - Databricks Account is not your user account, it is the Databricks Account that contains Workspaces.
 1. Go to https://login.databricks.com/, at the bottom, click on "Sign Up".
    - <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/7d22b8e5-6fb6-439a-89d5-263241f96b6e" />
 1. Enter your email, and hit the "Continue with email" button.
@@ -17,7 +18,8 @@
    1. Location, example: Canada
    2. Read the Terms of Service, click "Continue"
       - <img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/de481658-899a-45b7-b0fd-d43c6a267381" />
-1. You are ready, if you see Databricks Free Edition Account Workspace landing page: "Welcome to Databricks".
+1. You are now ready, provided if you see Databricks Free Edition Account Workspace landing page: "Welcome to Databricks".
+
 
 ## Add Member to your Databricks Free Edition Account
 Once you have signed up for a Databricks Free Edition Account, you can invite your team member to start learning and building.
@@ -33,11 +35,31 @@ Once you have signed up for a Databricks Free Edition Account, you can invite yo
    - <img width="450" height="350" alt="image" src="https://github.com/user-attachments/assets/1fb9dfa5-0ccb-4a3e-92e1-e679cb1a3bac" />
 1. Click on "Add new" button.
    - <img width="450" height="400" alt="image" src="https://github.com/user-attachments/assets/84ad7fb7-bff5-40dd-8138-619aead882a2" />
-
-
-
+1. Enter your team member email, then click "Add".
+   - <img width="450" height="400" alt="image" src="https://github.com/user-attachments/assets/e2026e7f-0f4a-4387-ad47-2c1890b1d046" />
+1. Your team member will receive an invitation email to join your free account. Remind them to check their email.
+   - <img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/4f2f460c-6df4-4717-bab8-28202d7f9ad9" />
+1. Go back to the "Add user" button to add more team member one at a time.
 
 
 ## Accept and Join Databricks Free Edition Account Invite
+1. After team captain add your email to the databricks free edition account, check your emai, click on the "Join" button.
+   - <img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/28a365c9-77eb-421b-a204-d7f3e1f9fa21" />
+1. You are now in the team's Databricks Free Edition and ready to learn and build, provided if you see the landing page.
+
 
 ## Login to Databricks Free Edition Account
+1. Go to https://login.databricks.com/, enter your email, click on "Continue with email".
+   - <img width="400" height="450" alt="image" src="https://github.com/user-attachments/assets/8db6801a-e7ef-472c-8be1-6205755bc084" />
+1. You will receive a verification code to login, so check your email, copy the verification code.
+   - <img width="400" height="450" alt="image" src="https://github.com/user-attachments/assets/662bd751-aeaa-4c38-9770-a7bff7a09687" />
+1. Go back to Databricks Free Edition, paste or enter the verification code received in your email.
+   - <img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/98da6f6d-6e2f-4618-8a5d-a4f2dc59aba9" />
+1. If the verification code is correct or not expired, one more step, that is to choose your team's Databricks Free Edition account.
+   - if you are team captain, you are the account owner (the name of the account is set by you when you create the account).
+   - if you are team member, choose the team account (name of the account should be your team number and name, such as 99_hackhero), you will not own a Databricks Account if you did not create a free personal Databricks account yourself.
+   - <img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/dc512042-930a-4730-889c-b2804df2b545" />
+ 
+
+
+
