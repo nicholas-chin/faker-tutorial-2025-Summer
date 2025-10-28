@@ -55,9 +55,9 @@ Once you have signed up for a Databricks Free Edition Account, you can invite yo
    - <img width="400" height="450" alt="image" src="https://github.com/user-attachments/assets/662bd751-aeaa-4c38-9770-a7bff7a09687" />
 1. Go back to Databricks Free Edition, paste or enter the verification code received in your email.
    - <img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/98da6f6d-6e2f-4618-8a5d-a4f2dc59aba9" />
-1. If the verification code is correct or not expired, one more step, that is to choose your team's Databricks Free Edition account.
-   - if you are team captain, you are the account owner (the name of the account is set by you when you create the account).
-   - if you are team member, choose the team account (name of the account should be your team number and name, such as 99_hackhero), you will not own a Databricks Account if you did not create a free personal Databricks account yourself.
+1. If the verification code is correct and not expired, one final step, that is to choose your team's Databricks Free Edition account.  If you choose the wrong account, you may have to sign out and login again.
+   - if you are team captain, you are the account owner (name of account is set by you when you create the account).
+   - if you are team member, choose the team account (name of account should be your team number and name, such as 99_hackhero), you will not own a Databricks Account if you did not create a free personal Databricks account yourself.
    - <img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/dc512042-930a-4730-889c-b2804df2b545" />
  
 
