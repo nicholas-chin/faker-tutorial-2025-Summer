@@ -43,7 +43,7 @@ Once you have signed up for a Databricks Free Edition Account, you can invite yo
 
 
 ## Accept and Join Databricks Free Edition Account Invite
-1. After team captain add your email to the databricks free edition account, check your emai, click on the "Join" button.
+1. After team captain add your email to the databricks free edition account, check your emai, click on the "Join now" button.
    - <img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/28a365c9-77eb-421b-a204-d7f3e1f9fa21" />
 1. You are now in the team's Databricks Free Edition and ready to learn and build, provided if you see the landing page.
 
